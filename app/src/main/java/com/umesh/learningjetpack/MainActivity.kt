@@ -13,6 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.view.WindowCompat
 import com.umesh.learningjetpack.ui.theme.LearningJetpackTheme
 import com.umesh.learningjetpack.view.basic.TutorialBasic
+import com.umesh.learningjetpack.view.basic.TutorialBasicTwo
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                   TutorialBasic()
+                   TutorialBasicTwo()
                 }
             }
         }
