@@ -9,7 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.core.view.WindowCompat
 import com.umesh.learningjetpack.ui.theme.LearningJetpackTheme
-import com.umesh.learningjetpack.view.basic.TutorialBasicSurface
+import com.umesh.learningjetpack.view.widgets.TutorialTextScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    TutorialBasicSurface()
+                    TutorialTextScreen()
                 }
             }
         }
