@@ -9,7 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.core.view.WindowCompat
 import com.umesh.learningjetpack.ui.theme.LearningJetpackTheme
-import com.umesh.learningjetpack.view.basic.TutorialBasicThree
+import com.umesh.learningjetpack.view.basic.TutorialBasicSurface
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,11 +18,11 @@ class MainActivity : ComponentActivity() {
         setContent {
             LearningJetpackTheme {
                 // A surface container using the 'background' color from the theme
-                   Surface(
+                Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                   TutorialBasicThree()
+                    TutorialBasicSurface()
                 }
             }
         }
